@@ -15,7 +15,7 @@ Rekurzió. A függvény meghívja önmagát, keresve a kisebb számok értékét
 
 ![pic](https://i.ibb.co/KG1W3xc/image.png)
 
-Az ábrán látható, hogy számolja ki a 7. elem értékét. A sárga körök a 3. elemnél végzett számolást jelölik (a 2. és az 1. elem összege, ugye). A 7. elem a 6. és az 5. összege lesz. A 6. az 5. és a 4. összege és így tovább. Az ábrán látható, hogy egyes csomópontok többször is megtalálhatóak (sárga körrel jelölve), de ezen kívűl a 4- és 5. elem is többször van kiszámolva.
+Az ábrán látható, hogy számolja ki a 7. elem értékét. A 7. elem a 6. és az 5. összege lesz. A 6. az 5. és a 4. összege és így tovább. A sárga körök a 3. elemnél végzett számolást jelölik (a 2. és az 1. elem összege, ugye). Látható, hogy többször is megtalálhatóak, de ezen kívűl a 4- és 5. elem is többször van kiszámolva.
 
 #### Végleges megoldás
 Hogy gyorsítsuk a számolási folyamatot, a már kiszámolt elemeket eltároljuk és ha újra ezt kellene számolnia, csak kiveszi az értéket a tárolóból.
